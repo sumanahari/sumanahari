@@ -309,8 +309,7 @@ border-radius:25%;
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
         #spoorthy1 {width: 300px;left:200px;}
-        #menubar {width: 1024px;}
-        #menubar1 {width: 1024px;}
+        
 }
 
 
