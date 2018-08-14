@@ -3,15 +3,15 @@ body
 background:#FFF; 
 }
 .clearfix:after {
-    display:block;
-    clear:both;
+Â Â Â Â display:block;
+Â Â Â Â clear:both;
 }
 /* main menu bar */
 
 
 #menubar
 {
-	position:fixed;
+	position:absolute;
 	margin:1px;
 	top:0px;
         left:0px;
@@ -24,7 +24,7 @@ background:#FFF;
 
 #menubar1
 {
-	position:fixed;
+	position:absolute;
 	margin:1px;
 	top: 52px;
         left:0px;
@@ -252,17 +252,19 @@ border-radius:25%;
        left: 400px;
        width: 450px;
       }
-  /* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        #spoorthy1 {width: 107px;}
-}
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-     #spoorthy1 {width: 256px;}
+        #spoorthy1 {width: 107px;left:100px;}
+        #menubar {width: 480px;}
+        #menubar1 {width: 480px;}
 }
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        #spoorthy1 {width: 256px;left:240px;}
+        #menubar {width: 1024px;}
+        #menubar1 {width: 1024px;}
+}
 
  #spoorthy2{
         position:absolute;
