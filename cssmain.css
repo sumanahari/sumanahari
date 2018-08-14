@@ -10,7 +10,7 @@ background:#FFF;
 
 #menubar
 {
-	position:absolute;	margin:1px;
+	position:fixed;	margin:1px;
 	top:0px;
         left:0px;
 	width:1360px;
@@ -22,7 +22,7 @@ background:#FFF;
 
 #menubar1
 {
-	position:absolute;
+	position:fixed;
 	margin:1px;
 	top: 0px;
         left:0px;
