@@ -291,9 +291,9 @@ border-radius:25%;
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
      #spoorthy1 {width: 300px; left:300px;}
-	 #spoorthy2 {width: 300px; left:300px;}
-	 #spoorthy3 {width: 300px; left:300px;}
-	 #spoorthy4 {width: 300px; left:300px;}
+	 #spoorthy2 {width: 300px; left:310px;}
+	 #spoorthy3 {width: 350px; left:250px;}
+	 #spoorthy4 {width: 350px; left:250px;}
 	#mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
 	#navMenu li {left:400px;}
