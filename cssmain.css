@@ -263,7 +263,7 @@ border-radius:25%;
 	mainmenu1 {width:1024px;}
 	navMenu li {left:600px;}
 	split {width:188px;}
-	splitimg {left:100px;}
+	.splitimg {left:100px;}
 }
 
 
