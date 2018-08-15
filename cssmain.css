@@ -125,7 +125,7 @@ background:#FFF;
 
 #split {
     height: 100%;
-    width:200px;
+    width:250px;
     position: fixed;
     z-index: 100;
     top: 58px;
@@ -259,8 +259,8 @@ border-radius:25%;
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
      #spoorthy1 {width: 300px;}
-	mainmenu {width:100%}
-	mainmenu1 {width:100%}
+	mainmenu {width:1024px;}
+	mainmenu1 {width:1024px;}
 }
 
 
