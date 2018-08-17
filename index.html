@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Spoorthy Bhat</title>
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  
 <link rel="stylesheet" type="text/css" href="cssmain.css" >
 <style type="text/css">
     img{ vertical-align: middle; }
@@ -18,16 +18,32 @@
 	border-right: 7px solid transparent;
 	border-bottom: 10px solid red;
 }
-	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-		.triangle-up-about {left:200px;}
-	}
+.maindiv
+       {
+        position: absolute;
+         top: 140px;
+       left: 350px;
+       width: 450px;
+       height:400px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        .maindiv {left:100px;}
+        
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        .maindiv {left:100px;}
+}
   </style>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 </head>
 <body>
 <!---------------------------->
 <!  menubar>
 <div id="menubar1">
-	</div>
+</div>
 <div id="menubar">
 
 <div id="navMenu">
@@ -52,6 +68,8 @@
 </li>
 </ul>
 
+
+
 </div>
 </div>
 <div class="triangle-up-about" ></div>
@@ -60,41 +78,41 @@
     <img class = "splitimg" src="./images/logo.png" alt="spoorthy bhat"   >
 </div>
 
- <img class = "mainimg" src="./images/Spoorthy.png" alt="spoorthy bhat"   >
+<div class="maindiv" >
+<table cellpadding="0" >
 
-<a href="https://github.com/SpoorthyBhat/SpoorthyBhat.github.io/blob/master/Resume.pdf" target="_blank">
-<div id = "cvdownload" >
-&nbsp;My CV
+<tr>
+  <td  style= "font-family: Arial narrow; font-weight: bold; font-size:35px;color : black;">
+&nbsp;&nbsp;&nbsp;SPOORTHY BHAT</td>
+</tr>
+
+<tr>
+<td  style= "font-family: Arial;font-weight: italics; font-size:20px;color : black;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ML and AI Enthusiast.</td>
+</tr>
+
+<tr>
+  <td height ="50px"></td>
+</tr>
+
+<tr>
+      <td  style= "font-family:Goudy Old Style;font-weight: italics; font-size:18px;color : black;">
+A little bit about me, I am very passionate about Machine Learning and all its applications. 
+   I am always interested in learning new things. I give more than my best to things I love.</td>
+</tr>
+
+<tr>
+  <td height ="20px"></td>
+</tr>
+
+<tr>
+      <td  style= "font-family:Goudy Old Style;font-weight: italics; font-size:18px;color : black;">
+I completed my undergaduate studies at the Indian Institute of Technology, Guwahati. 
+      I am currently pursuing a master's degree in Computer Science at the University of California, San Diego.</td>
+</tr>
+
+</table>
 </div>
-</a>
-
-<img class = "GitHub1" src="./images/GitHub-Mark.png" >
-<a class = "GitHub2" href="https://github.com/SpoorthyBhat" target="_blank">https://github.com/SpoorthyBhat</a>
-
-<img class = "LinkedIn-Logo-R1" src="./images/LinkedIn-Logo-R.png" >
-<a class = "LinkedIn-Logo-R2" href="https://www.linkedin.com/in/spoorthy-bhat" target="_blank">www.linkedin.com/in/spoorthy-bhat</a>
-
-<img class = "email-hd-png-hd-painting-5121" src="./images/email-hd-png-hd-painting-512.png" >
-<a class = "email-hd-png-hd-painting-5122" href="mailto:spoorthy.bhat.77@gmail.com">spoorthy.bhat.77@gmail.com</a>
-
-<div id = "spoorthy1">
-   SPOORTHY BHAT
-</div>
-
-<div id = "spoorthy2">
-   ML and AI Enthusiast.
-</div>
-
-<div id = "spoorthy4">
-   <p>I completed my undergaduate studies at the Indian Institute of Technology, Guwahati. 
-      I am currently pursuing a master's degree in Computer Science at the University of California, San Diego.</p>
-</div>
-
-<div id = "spoorthy3">
-   <p>A little bit about me, I am very passionate about Machine Learning and all its applications. 
-   I am always interested in learning new things. I give more than my best to things I love.</p>
-</div>
-
  
 </body>
 </html>
