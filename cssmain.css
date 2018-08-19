@@ -286,36 +286,21 @@ border-radius:25%;
       }
   /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	#spoorthy1 {width: 107px;}
 	#mainmenu {width:480px;}
 	#mainmenu1 {width:480px;}
 	#navMenu li {left:250px;}
 	#split {width:50px;}
 	.splitimg {left:50px;}
-	body {
-        background-color: lightblue;
-    }
-	}
+}
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-     #spoorthy1 {width: 300px; left:300px;}
-	 #spoorthy2 {width: 300px; left:310px;}
-	 #spoorthy3 {width: 400px; left:250px;}
-	 #spoorthy4 {width: 400px; left:250px;}
+    
 	#mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
 	#navMenu li {left:150px;}
 	#split {width:188px;}
 	.splitimg {left:100px;}
 	.mainimg{left:700px;}
-	#cvdownload{left:725px;}
-	.GitHub1{left:675px;}
-	.GitHub2{left:720px;}
-	.LinkedIn-Logo-R1{left:675px;}
-	.LinkedIn-Logo-R2{left:720px;}
-	.email-hd-png-hd-painting-5121{left:675px;}
-	.email-hd-png-hd-painting-5122{left:720px;}
-	.triangle-up-about {left:500px;}
 }
 
 
