@@ -284,23 +284,3 @@ border-radius:25%;
        left: 350px;
        width: 450px;
       }
-  /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	#mainmenu {width:480px;}
-	#mainmenu1 {width:480px;}
-	#navMenu li {left:250px;}
-	#split {width:50px;}
-	.splitimg {left:50px;}
-}
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    
-	#mainmenu {width:1024px;}
-	#mainmenu1 {width:1024px;}
-	#navMenu li {left:150px;}
-	#split {width:188px;}
-	.splitimg {left:100px;}
-	.mainimg{left:700px;}
-}
-
-
