@@ -286,8 +286,6 @@ border-radius:25%;
       }
 	/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        .maindiv1 {left:300px;}
-        .triangle-up-about {left:700px;}
         #mainmenu {width:480px;}
 	#mainmenu1 {width:480px;}
 	#navMenu li {left:450px;}
