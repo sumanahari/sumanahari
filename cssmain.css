@@ -11,7 +11,7 @@ background:#FFF;
 
 #menubar
 {
-	position:fixed;
+	position:absolute;
 	margin:1px;
 	top:0px;
         left:0px;
