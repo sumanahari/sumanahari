@@ -307,4 +307,7 @@ border-radius:25%;
 	#navMenu li {left:700px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
+	body {
+    background-color: lightblue;
+}
 }
