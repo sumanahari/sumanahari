@@ -294,17 +294,17 @@ border-radius:25%;
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-        #mainmenu {width:1024px;}
-	#mainmenu1 {width:1024px;}
-	#navMenu li {left:300px;}
+        #mainmenu {width:1360px;}
+	#mainmenu1 {width:1360px;}
+	#navMenu li {left:450px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
-        #mainmenu {width:1224px;}
-	#mainmenu1 {width:1224px;}
-	#navMenu li {left:750px;}
+        #mainmenu {width:1360px;}
+	#mainmenu1 {width:1360px;}
+	#navMenu li {left:950px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	body {
