@@ -285,9 +285,9 @@ border-radius:25%;
        width: 450px;
       }
 	/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        #mainmenu {width:480px;}
-	#mainmenu1 {width:480px;}
+@media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
+        #mainmenu {width:700px;}
+	#mainmenu1 {width:700px;}
 	#navMenu li {left:450px;}
 	#split {width:180px;}
 	.splitimg {left:80px;}
