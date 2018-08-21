@@ -296,20 +296,8 @@ border-radius:25%;
 	
 }
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) {
-        #mainmenu {width:768px;}
-	#mainmenu1 {width:768px;}
-	#navMenu li {left:100px;}
-	#split {width:180px;}
-	.splitimg {left:85px;}
-	#split {height:1024px;}
-	body {
-    background-color:lightblue;
-}
-}
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (max-device-width : 1024px){
-	#mainmenu {width:1024px;}
+@media only screen and (min-device-width : 768px) and  (max-device-width : 1024px){
+        #mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
 	#navMenu li {left:100px;}
 	#split {width:180px;}
@@ -317,7 +305,7 @@ border-radius:25%;
 	#split {height:768px;}
 	body {
     background-color: yellow;
-}
+	}
 }
 	
 /* Desktops and laptops ----------- */
