@@ -304,11 +304,11 @@ border-radius:25%;
 	.splitimg {left:85px;}
 	#split {height:1024px;}
 	body {
-    background-color: red;
+    background-color: yellow;
 }
 }
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 1024px){
+@media only screen and (max-device-width : 1024px){
 	#mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
 	#navMenu li {left:100px;}
