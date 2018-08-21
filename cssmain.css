@@ -292,7 +292,9 @@ border-radius:25%;
 	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	
+	body {
+    background-color: lightblue;
+}
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -301,9 +303,7 @@ border-radius:25%;
 	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	body {
-    background-color: lightblue;
-}
+	
 
 }
 /* Desktops and laptops ----------- */
