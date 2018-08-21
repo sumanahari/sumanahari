@@ -302,10 +302,8 @@ border-radius:25%;
 	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:768px;}
-	body {
-    background-color: yellow;
-	}
+	#split {height:1024px;}
+	
 }
 	
 /* Desktops and laptops ----------- */
