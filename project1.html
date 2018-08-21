@@ -2,17 +2,18 @@
 <html>
 <body>
 
-<p>Click the button to display the total height of your screen, in pixels.</p>
+<h3>Your Screen:</h3>
 
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
+<div id="demo"></div>
 
 <script>
-function myFunction() {
-    var x = "Total Height: " + screen.height + "px";
-    document.getElementById("demo").innerHTML = x;
-}
+var txt = "";
+txt += "<p>Total width/height: " + screen.width + "*" + screen.height + "</p>";
+txt += "<p>Available width/height: " + screen.availWidth + "*" + screen.availHeight + "</p>";
+txt += "<p>Color depth: " + screen.colorDepth + "</p>";
+txt += "<p>Color resolution: " + screen.pixelDepth + "</p>";
+
+document.getElementById("demo").innerHTML = txt;
 </script>
 
 </body>
