@@ -302,7 +302,7 @@ border-radius:25%;
 	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:700px;}
+	#split {height:1024px;}
 }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width :300px) and (max-device-width : 1600px) {
