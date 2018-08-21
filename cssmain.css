@@ -50,7 +50,7 @@ background:#FFF;
 	float:left;
 	position:relative;
 	background:#000000;
-	left:950px;
+	left:350px;
 }
 
 #navMenu ul li a
@@ -303,9 +303,8 @@ border-radius:25%;
 	#navMenu li {left:200px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	body {
-    background-color: lightblue;
-}
+	
+
 }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width :300px) and (max-device-width : 1600px) {
