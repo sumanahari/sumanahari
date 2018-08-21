@@ -287,12 +287,12 @@ border-radius:25%;
       }
 	/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
-        #mainmenu {width:800px;}
-	#mainmenu1 {width:800px;}
+        #mainmenu {width:900px;}
+	#mainmenu1 {width:900px;}
 	#navMenu li {left:450px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:1000px;}
+	#split {height:1500px;}
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
