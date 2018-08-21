@@ -296,7 +296,7 @@ border-radius:25%;
 	
 }
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) {
+@media only screen and (max-device-width : 768px) {
         #mainmenu {width:768px;}
 	#mainmenu1 {width:768px;}
 	#navMenu li {left:100px;}
