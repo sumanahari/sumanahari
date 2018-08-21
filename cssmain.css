@@ -124,7 +124,7 @@ background:#FFF;
 }
 
 #split {
-    height: 1600px;
+    height: 100%;
     width:250px;
     position: absolute;
     top: 55px;
@@ -287,12 +287,12 @@ border-radius:25%;
       }
 	/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
-        #mainmenu {width:1360px;}
-	#mainmenu1 {width:1360px;}
+        #mainmenu {width:800px;}
+	#mainmenu1 {width:800px;}
 	#navMenu li {left:450px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:700px;}
+	
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
