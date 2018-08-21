@@ -296,8 +296,8 @@ border-radius:25%;
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-        #mainmenu {width:1360px;}
-	#mainmenu1 {width:1360px;}
+        #mainmenu {width:1024px;}
+	#mainmenu1 {width:1024px;}
 	#navMenu li {left:350px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
