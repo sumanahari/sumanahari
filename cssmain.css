@@ -287,18 +287,18 @@ border-radius:25%;
       }
 	/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
-        #mainmenu {width:900px;}
-	#mainmenu1 {width:900px;}
-	#navMenu li {left:450px;}
+        #mainmenu {width:700px;}
+	#mainmenu1 {width:700px;}
+	#navMenu li {left:300px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:1500px;}
+	
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
         #mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
-	#navMenu li {left:350px;}
+	#navMenu li {left:200px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 }
