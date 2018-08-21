@@ -289,13 +289,11 @@ border-radius:25%;
 @media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
         #mainmenu {width:700px;}
 	#mainmenu1 {width:700px;}
-	#navMenu li {left:00px;}
+	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:2600px;}
-	body {
-    background-color: lightblue;
-}
+	#split {height:2000px;}
+	
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
