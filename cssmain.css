@@ -50,7 +50,7 @@ background:#FFF;
 	float:left;
 	position:relative;
 	background:#000000;
-	left:350px;
+	left:950px;
 }
 
 #navMenu ul li a
@@ -289,21 +289,21 @@ border-radius:25%;
 @media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
         #mainmenu {width:700px;}
 	#mainmenu1 {width:700px;}
-	#navMenu li {left:300px;}
+	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	body {
-    background-color: lightblue;
-}
+	
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
         #mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
-	#navMenu li {left:200px;}
+	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	
+	body {
+    background-color: lightblue;
+}
 
 }
 /* Desktops and laptops ----------- */
