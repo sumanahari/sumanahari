@@ -1,185 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Spoorthy Bhat</title>
-  
-<link rel="stylesheet" type="text/css" href="cssmain.css" >
-<style type="text/css">
-   img{ vertical-align: middle; }
-
-.triangle-up-about {
-        position:fixed;
-	width: 0px;
-	height: 0px;
-	left:910px;
-	top: 47px;
-	z-index: 100; 
-	border-left: 7px solid transparent;
-	border-right: 7px solid transparent;
-	border-bottom: 10px solid red;
-}
-	
-.maindiv
-  {
-   position:absolute;
-     top:1px;
-      width :1300px;
-      height: 600px;
-      left: 1px;
- }
-	
-.maindiv1
-       {
-        position: absolute;
-         top: 100px;
-       left: 320px;
-       width:850px;
-       height:600px;
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
-        .maindiv1 {left:280px;}
-        .triangle-up-about {left:620px;}
-        .maindiv2 {left:750px;}
-}
-	
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-        .maindiv1 {left:200px;}
-	.maindiv2 {left:700px;}
-        .triangle-up-about {left:485px;}
-	
-}
-	
-</style>
-
-</head>
 <body>
 
-<div id="menubar1">
-</div>
+<p>Click the button to display the total height of your screen, in pixels.</p>
 
-<div id="menubar">
-<div id="navMenu">
+<button onclick="myFunction()">Try it</button>
 
-<ul>
-<li><a href="index.html">&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;&nbsp; </a>
-</li>
-</ul>
+<p id="demo"></p>
 
-<ul>
-<li><a href="project1.html">&nbsp;&nbsp;PROJECTS&nbsp;&nbsp;&nbsp; </a>
-</li>
-</ul>
+<script>
+function myFunction() {
+    var x = "Total Height: " + screen.height + "px";
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
 
-<ul>
-<li><a href="work.html">&nbsp;&nbsp;WORK&nbsp;&nbsp;&nbsp; </a>
-</li>
-</ul>
-
-<ul>
-<li><a href="education.html">&nbsp;&nbsp;EDUCATION&nbsp;&nbsp;</a>
-</li>
-</ul>
-
-</div>
-</div>
-
-<div class="triangle-up-about" ></div>
-   
-<div id="split">
-    <img class = "splitimg" src="./images/logo.png" alt="spoorthy bhat"   >
-</div>
-
-<div class="maindiv" >
-<div class="maindiv1" >
-<table cellpadding="0" border ="0" >
-
-<tr><td style= "font-family: Arial narrow; font-weight: bold; font-size:24px;color : black;">
-     PUBLICATIONS
-</td></tr>
-
-<tr><td style= "font-family: Arial;font-weight: bold; font-size:19px;color : black;">
-  <ul style="line-height:50%"><li>Progressively Balanced Multi-class Neural Trees <br>
-  <p style= "font-family: Arial;font-weight: normal; font-size:15px;color : black;">Twenty Fourth National Conference on Communications (NCC) 2018</p>
-  </li></ul>
-</td></tr>
-
-<tr><td>
-   <table  style= "margin-top: -30px; margin-bottom: -30px;margin-left: 18px;" cellpadding="15" border="0">
-      <tr><td>
-         <img height = "80px" width = "130px" src="./images/paper.jpg">
-      </td>
-      <td>
-         <p font size="-1" face="Arial Unicode MS" >
-          A progressively
-          balanced neural tree has been proposed where training datasets are balanced prior to
-          perceptron learning. The decision function has been optimized
-          with respect to entropy impurity based
-          objective functions. This formulation also allows a parent node
-          to have more than two child nodes. The proposed algorithm has been
-          benchmarked on ten standard datasets against three baseline
-          multi-class classification algorithms.
-      </td></tr>
-  </table>
-</td></tr>
-
-<tr>
-  <td height ="40px"></td>
-</tr>
-
-<tr>
-  <td style= "font-family: Arial narrow; font-weight: bold; font-size:24px;color : black;">
-PROJECTS</td>
-</tr>
-
-<tr>
-<td style= "font-family: Arial;font-weight: bold; font-size:19px;color : black;">
-<ul style="line-height:50%"><li>Automatic Lyrics Generation 
-<a style ="font-size:14px;text-decoration: none;font-weight: normal;" href="https://github.com/SpoorthyBhat/Lyrics_generation" target="blank">&nbsp;&nbsp;&nbsp;&nbsp;[see project]</a>
-</li></ul>
-</td></tr>
-
-<tr><td>
-   <table  style= "margin-top: -30px; margin-bottom: -30px;margin-left: 18px;" cellpadding="15" border="0">
-      <tr><td>
-         <img height = "80px" width = "130px" src="./images/lyrics.jpg" alt="spoorthy bhat">
-      </td>
-      <td>
-         <p font size="-1" face="Arial Unicode MS" >
-          An NLP algorithm that can automatically generate random song lyrics of any chosen genre. Just select the genre
-          and get different lyrics each time.
-      </td></tr>
-  </table>
-</td></tr>
-
-<tr>
-  <td height ="10px"></td>
-</tr>
-
-<tr>
-<td style= "font-family: Arial;font-weight: bold; font-size:19px;color : black;">
-<ul style="line-height:50%"><li>Image deblurring 
-<a style ="font-size:14px;text-decoration: none;font-weight: normal;" href="https://github.com/SpoorthyBhat/Image_deblurring" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;[see project]</a>
-</li></ul>
-</td></tr>
-
-<tr><td>
-   <table  style= "margin-top: -30px; margin-bottom: -30px;margin-left: 18px;" cellpadding="15" border="0">
-      <tr><td>
-         <img height = "80px" width = "130px" src="./images/deblur.png" alt="spoorthy bhat">
-      </td>
-      <td>
-         <p font size="-1" face="Arial Unicode MS" >
-          How disappointing is it to have a photo capturing a memorable moment only to find out later that it's blur. 
-          Image deblurring can also be used be used as a preprocessing step for other applications. This project allows you to deblur images.
-      </td></tr>
-  </table>
-</td></tr>
-
-</table>
-</div>
-</div>
 </body>
 </html>
