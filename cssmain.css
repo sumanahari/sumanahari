@@ -304,7 +304,7 @@ border-radius:25%;
 	.splitimg {left:85px;}
 	#split {height:1024px;}
 	body {
-    background-color: yellow;
+    background-color:lightblue;
 }
 }
 /* iPads (portrait and landscape) ----------- */
@@ -316,7 +316,7 @@ border-radius:25%;
 	.splitimg {left:85px;}
 	#split {height:768px;}
 	body {
-    background-color: lightblue;
+    background-color: yellow;
 }
 }
 	
