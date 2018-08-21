@@ -142,6 +142,7 @@ background:#FFF;
     transform: translate(-50%, -50%);
     width: 152px;
     height:137px;
+    z-index: 100;
 }
 
 .mainimg{
