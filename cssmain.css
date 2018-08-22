@@ -50,7 +50,7 @@ background:#FFF;
 	float:left;
 	position:relative;
 	background:#000000;
-	left:700px;
+	left:600px;
 }
 
 #navMenu ul li a
@@ -125,7 +125,7 @@ background:#FFF;
 
 #split {
     height: 800px;
-    width:200px;
+    width:150px;
     position: absolute;
     top: 55px;
     left: 0;
