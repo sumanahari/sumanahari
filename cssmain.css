@@ -316,3 +316,7 @@ border-radius:25%;
 	#split {height:768px;}
 
 }
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
