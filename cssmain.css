@@ -329,8 +329,8 @@ border-radius:25%;
 @media only screen and (min-width :300px) and (max-device-width : 1600px) {
         #mainmenu {width:1800px;}
 	#mainmenu1 {width:1800px;}
-	#navMenu li {left:700px;}
-	#split {width:180px;}
+	#navMenu li {left:500px;}
+	#split {width:100px;}
 	.splitimg {left:85px;}
 	#split {height:768px;}
 
