@@ -1,7 +1,6 @@
 body
 { 
 background:#FFF; 
-margin : 2px;	
 }
 .clearfix:after {
     display:block;
@@ -51,7 +50,7 @@ margin : 2px;
 	float:left;
 	position:relative;
 	background:#000000;
-	left:950px;
+	left:500px;
 }
 
 #navMenu ul li a
