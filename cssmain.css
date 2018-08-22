@@ -294,6 +294,7 @@ border-radius:25%;
 	.splitimg {left:85px;}
 	#split {height:2000px;}
 	body{
+		background-color: coral;
 		height: 700px;
 		width:320px;
 	}
@@ -307,6 +308,7 @@ border-radius:25%;
 	.splitimg {left:85px;}
 	#split {height:700px;}
 	body{
+		background-color: grey;
 		height: 700px;
 		width:320px;
 	}
