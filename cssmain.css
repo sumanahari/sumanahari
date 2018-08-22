@@ -294,8 +294,8 @@ border-radius:25%;
 	.splitimg {left:85px;}
 	#split {height:700px;}
 	body {
-        background-color: yellow;
-	width: 320px;
+        background-color: grey;
+	width: 700px;
 	height:320px;	
     }
 }
