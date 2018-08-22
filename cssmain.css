@@ -126,7 +126,7 @@ margin : 2px;
 
 #split {
     height: 800px;
-    width:350px;
+    width:200px;
     position: absolute;
     top: 55px;
     left: 0;
@@ -330,9 +330,12 @@ border-radius:25%;
         #mainmenu {width:1800px;}
 	#mainmenu1 {width:1800px;}
 	#navMenu li {left:500px;}
-	#split {width:100px;}
+	#split {width:200px;}
 	.splitimg {left:85px;}
 	#split {height:768px;}
-
+       body {
+        background-color: lightblue;
+	
+    }
 }
 
