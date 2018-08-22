@@ -293,7 +293,10 @@ border-radius:25%;
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:2000px;}
-	
+	body{
+		height: 700px;
+		width:320px;
+	}
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 700px) and (orientation: landscape) {
@@ -303,6 +306,10 @@ border-radius:25%;
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:700px;}
+	body{
+		height: 700px;
+		width:320px;
+	}
 }	
 	
 /* iPads (portrait and landscape) ----------- */
