@@ -1,6 +1,7 @@
 body
 { 
 background:#FFF; 
+margin : 2px;	
 }
 .clearfix:after {
     display:block;
