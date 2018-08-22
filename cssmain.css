@@ -325,4 +325,6 @@ border-radius:25%;
 	#split {height:700px;}
 	body {
         background-color: lightblue;
+	width: 700px;
+	height:700px;	
     }
