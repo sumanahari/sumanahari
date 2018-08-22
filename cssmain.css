@@ -292,7 +292,7 @@ border-radius:25%;
 	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:2000px;}
+	#split {height:4000px;}
 	
 }
 /* iPads (portrait and landscape) ----------- */
@@ -317,6 +317,12 @@ border-radius:25%;
 
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 700px) and (orientation: landscape) {
-    body {
+     #mainmenu {width:700px;}
+	#mainmenu1 {width:700px;}
+	#navMenu li {left:100px;}
+	#split {width:180px;}
+	.splitimg {left:85px;}
+	#split {height:2000px;}
+	body {
         background-color: lightblue;
     }
