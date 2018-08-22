@@ -3,8 +3,8 @@ body
 background:#FFF; 
 }
 .clearfix:after {
-    display:block;
-    clear:both;
+    display:block;
+    clear:both;
 }
 /* main menu bar */
 
@@ -292,7 +292,7 @@ border-radius:25%;
 	#navMenu li {left:500px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:1700px;}
+	#split {height:700px;}
 	body {
         background-color: grey;
 	width: 700px;
@@ -337,4 +337,3 @@ border-radius:25%;
 	
     }
 }
-
