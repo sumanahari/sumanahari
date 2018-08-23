@@ -336,6 +336,9 @@ border-radius:25%;
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:1024px;}
+	 body {
+        background-color:purple;
+    }
 }
 	
 /* Desktops and laptops ----------- */
@@ -348,7 +351,6 @@ border-radius:25%;
 	#split {height:768px;}
        body {
         background-color:yellow;
-	
     }
 }
 	
