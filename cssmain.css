@@ -337,3 +337,16 @@ border-radius:25%;
 	
     }
 }
+	
+@media (min-width:480px){
+	 #mainmenu {width:700px;}
+	#mainmenu1 {width:700px;}
+	#navMenu li {left:400px;}
+	#split {width:180px;}
+	.splitimg {left:85px;}
+	#split {height:700px;}
+	body {
+        background-color: orange;
+	width: 700px;
+	height:320px;	
+	}
