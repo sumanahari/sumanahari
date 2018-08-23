@@ -366,3 +366,9 @@ border-radius:25%;
 	width: 700px;
 	height:320px;	
 	}
+	
+@media (min-width:1024px){	
+      body {
+        background-color: red;
+	}
+	}
