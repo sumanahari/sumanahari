@@ -359,10 +359,10 @@ border-radius:25%;
 @media only screen and (min-width :300px) and (max-device-width : 1600px) {
         #mainmenu {width:1800px;}
 	#mainmenu1 {width:1800px;}
-	#navMenu li {left:750px;}
-	#split {width:300px;}
+	#navMenu li {left:400px;}
+	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:768px;}
+	#split {height:700px;}
        body {
         background-color:yellow;
     }
