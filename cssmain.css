@@ -219,7 +219,7 @@ border-radius:25%;
 @media only screen and (min-device-width : 750px)and (max-device-width : 1024px) and (orientation : landscape){ 
 	 #mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
-	#navMenu li {left:400px;}
+	#navMenu li {left:500px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:1024px;}
