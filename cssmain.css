@@ -180,9 +180,9 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
-		background-colour : green;
+	background-color:  green;
     }
-
+}
 /* Smartphones (portrait and landscape) ----------- */	
 @media (min-width:360px){
 	 #mainmenu {width:700px;}
@@ -196,7 +196,7 @@ border-radius:25%;
 	height:320px;	
 		background-colour : lightblue;
 	}
-
+}
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
 {
@@ -225,14 +225,14 @@ border-radius:25%;
 
 /*iPad in portrait -----*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-	 body {
+	 
          #mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
 	#navMenu li {left:100px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:1024px;}
-    }
+  
 }
 	
 /* Desktops and laptops ----------- */
