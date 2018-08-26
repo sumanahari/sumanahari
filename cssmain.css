@@ -242,7 +242,7 @@ border-radius:25%;
 }
 	
 /* Desktops and laptops ----------- */
-@media only screen and (min-width :900px) and (max-device-width : 1440px) {
+@media only screen and (min-device-width :900px) and (max-device-width : 1440px) {
         #mainmenu {width:1800px;}
 	#mainmenu1 {width:1800px;}
 	#navMenu li {left:400px;}
