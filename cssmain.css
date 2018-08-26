@@ -241,6 +241,7 @@ border-radius:25%;
 	#split {height:1200px;}
 	body {
 		width:750px;
+		height:1200px;
 		 background-color: grey;
     }
 }
