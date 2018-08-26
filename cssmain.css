@@ -243,16 +243,16 @@ border-radius:25%;
 	
 /* Desktops and laptops ----------- */
 @media only screen and (min-device-width :900px) and (max-device-width : 1440px) {
-        #mainmenu {width:2200px;}
-	#mainmenu1 {width:2200px;}
+        #mainmenu {width:2500px;}
+	#mainmenu1 {width:2500px;}
 	#navMenu li {left:700px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
-	#split {height:900px;}
+	#split {height:700px;}
       body{
-	      width : 2200px;
-	      height : 900px;
-	      background-color:lightblue;
+	      width : 1440px;
+	      height : 700px;
+	      background-color:blue;
 	}
 }
 
