@@ -243,4 +243,9 @@ border-radius:25%;
       
 }
 
-	
+@media only screen and (min-device-width : 900px) and (max-device-width : 1440px) {	
+    body {
+        width: 1440px;
+	height:900px;
+	    background-color: red;}
+    }
