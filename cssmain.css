@@ -202,43 +202,44 @@ border-radius:25%;
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 750px) and (max-device-width : 1024px) 
 {
-        #mainmenu {width:100px;}
-	#mainmenu1 {width:100px;}
+        #mainmenu {width:1024px;}
+	#mainmenu1 {width:1024px;}
 	#navMenu li {left:700px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:1200px;}
 	body {
-       	 width: 100px;
+       	 width:1024px;
 	height:1200px;
-		background-color: lightorange;
+		background-color: orange;
     }
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 750px)and (max-device-width : 1024px) and (orientation : landscape){ 
-	 #mainmenu {width:100px;}
-	#mainmenu1 {width:100px;}
+	 #mainmenu {width:1024px;}
+	#mainmenu1 {width:1024px;}
 	#navMenu li {left:700px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:750px;}
 	body{
-		 width: 100px;
+		 width: 1024px;
 	height:750px;
-		background-color: lightpurple;
+		background-color:purple;
 	}			
 }
 
 /*iPad in portrait -----*/
 @media only screen and (min-device-width : 750px) and (max-device-width : 1024px) and (orientation : portrait) {
-	 body {
+	 
          #mainmenu {width:1024px;}
 	#mainmenu1 {width:1024px;}
 	#navMenu li {left:400px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:1024px;}
+	body {
 		 background-color: grey;
     }
 }
