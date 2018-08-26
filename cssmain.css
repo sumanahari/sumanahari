@@ -183,14 +183,14 @@ border-radius:25%;
 
 /* Smartphones (portrait and landscape) ----------- */	
 @media (min-width:360px){
-	 #mainmenu {width:800px;}
-	#mainmenu1 {width:800px;}
+	 #mainmenu {width:700px;}
+	#mainmenu1 {width:700px;}
 	#navMenu li {left:400px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:700px;}
 	body {
-        width: 800px;
+        width: 700px;
 	height:320px;	
 		background-colour : lightblue;
 	}
@@ -243,7 +243,7 @@ border-radius:25%;
 	#split {height:700px;}
       
 }
-@media (min-width:900px){
+@media only screen and (min-device-width:900px){
     body {
         width: 1440px;
 	height:900px;
