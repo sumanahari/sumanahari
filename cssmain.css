@@ -166,6 +166,7 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
+		background-color: lightblue;
     }
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -179,6 +180,7 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
+		background-color: green;
     }
 
 /* Smartphones (portrait and landscape) ----------- */	
@@ -191,7 +193,8 @@ border-radius:25%;
 	#split {height:700px;}
 	body {
         width: 700px;
-	height:320px;	
+	height:320px;
+		background-color: yellow;
 	}
 
 /* iPads (portrait and landscape) ----------- */
@@ -206,6 +209,7 @@ border-radius:25%;
 	body {
         width: 1024px;
 	height:768px;	
+		background-color: red;
     }
 }
 
@@ -217,7 +221,9 @@ border-radius:25%;
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:1024px;}
-	
+	body{
+		background-color: purple;
+	}			
 }
 
 /*iPad in portrait -----*/
@@ -229,6 +235,7 @@ border-radius:25%;
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:1024px;}
+		 background-color: grey;
     }
 }
 	
@@ -240,6 +247,8 @@ border-radius:25%;
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:700px;}
-      
+      body{
+	      background-color: orange;
+	}
 }
 
