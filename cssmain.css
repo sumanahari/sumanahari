@@ -184,7 +184,7 @@ border-radius:25%;
     }
 }
 /* Smartphones (portrait and landscape) ----------- */	
-@media (min-width:360px){
+@media screen and (min-device-width : 320px) and (max-device-width : 700px) and (orientation:  portrait) {
 	 #mainmenu {width:700px;}
 	#mainmenu1 {width:700px;}
 	#navMenu li {left:400px;}
