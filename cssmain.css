@@ -202,14 +202,14 @@ border-radius:25%;
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 750px) and (max-device-width : 1024px) 
 {
-        #mainmenu {width:750px;}
-	#mainmenu1 {width:750px;}
+        #mainmenu {width:600px;}
+	#mainmenu1 {width:600px;}
 	#navMenu li {left:700px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:1200px;}
 	body {
-        width: 750px;
+        width: 600px;
 	height:768px;	
 		background-color: orange;
     }
@@ -217,8 +217,8 @@ border-radius:25%;
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 750px)and (max-device-width : 1024px) and (orientation : landscape){ 
-	 #mainmenu {width:1024px;}
-	#mainmenu1 {width:1024px;}
+	 #mainmenu {width:900px;}
+	#mainmenu1 {width:900px;}
 	#navMenu li {left:700px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
