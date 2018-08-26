@@ -192,6 +192,7 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
+		background-colour : lightblue;
 	}
 
 /* iPads (portrait and landscape) ----------- */
@@ -242,8 +243,7 @@ border-radius:25%;
 	#split {height:700px;}
       
 }
-
-@media only screen and (min-device-width : 900px) and (max-device-width : 1440px) {	
+@media (min-width:900px){
     body {
         width: 1440px;
 	height:900px;
