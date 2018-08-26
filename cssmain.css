@@ -183,14 +183,14 @@ border-radius:25%;
 
 /* Smartphones (portrait and landscape) ----------- */	
 @media (min-width:360px){
-	 #mainmenu {width:700px;}
-	#mainmenu1 {width:700px;}
+	 #mainmenu {width:800px;}
+	#mainmenu1 {width:800px;}
 	#navMenu li {left:400px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:700px;}
 	body {
-        width: 700px;
+        width: 800px;
 	height:320px;	
 		background-colour : lightblue;
 	}
