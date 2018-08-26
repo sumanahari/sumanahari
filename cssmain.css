@@ -165,7 +165,8 @@ border-radius:25%;
 	#split {height:2000px;}
 	body {
         width: 700px;
-	height:320px;	
+	height:320px;
+		background-colour : yellow;
     }
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -179,10 +180,11 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
+		background-colour : green;
     }
 
 /* Smartphones (portrait and landscape) ----------- */	
-@media (min-width:480px){
+@media (min-width:360px){
 	 #mainmenu {width:700px;}
 	#mainmenu1 {width:700px;}
 	#navMenu li {left:400px;}
