@@ -182,9 +182,10 @@ border-radius:25%;
 	height:320px;	
 		background-color: green;
     }
+}
 
 	/* Smartphones (portrait and landscape) ----------- */
-@media (min-width : 320px) and (max-width : 700px) and (orientation: portrait) {
+@media (min-device-width : 320px) and (max-device-width : 700px) and (orientation: portrait) {
      #mainmenu {width:700px;}
 	#mainmenu1 {width:700px;}
 	#navMenu li {left:400px;}
@@ -194,22 +195,9 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
-		background-color: black;
-    }
-	
-/* Smartphones (portrait and landscape) ----------- */	
-@media (min-width:360px){
-	 #mainmenu {width:700px;}
-	#mainmenu1 {width:700px;}
-	#navMenu li {left:400px;}
-	#split {width:180px;}
-	.splitimg {left:85px;}
-	#split {height:700px;}
-	body {
-        width: 700px;
-	height:320px;
 		background-color: yellow;
-	}
+    }
+	}	
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
