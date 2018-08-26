@@ -245,12 +245,12 @@ border-radius:25%;
 @media only screen and (min-device-width :900px) and (max-device-width : 1440px) {
         #mainmenu {width:2000px;}
 	#mainmenu1 {width:2000px;}
-	#navMenu li {left:600px;}
+	#navMenu li {left:700px;}
 	#split {width:180px;}
 	.splitimg {left:85px;}
 	#split {height:700px;}
       body{
-	      background-color:blue;
+	      background-color:lightblue;
 	}
 }
 
