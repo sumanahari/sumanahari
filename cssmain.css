@@ -182,7 +182,7 @@ border-radius:25%;
     }
 
 /* Smartphones (portrait and landscape) ----------- */	
-@media (min-width:480px){
+@media (min-width:360px){
 	 #mainmenu {width:700px;}
 	#mainmenu1 {width:700px;}
 	#navMenu li {left:400px;}
