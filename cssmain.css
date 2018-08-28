@@ -166,7 +166,6 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
-		background-color: lightblue;
     }
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -180,7 +179,6 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
-		background-color: green;
     }
 }
 
@@ -195,7 +193,6 @@ border-radius:25%;
 	body {
         width: 700px;
 	height:320px;	
-		background-color: grey;
     }
 	}	
 
@@ -211,7 +208,6 @@ border-radius:25%;
 	body {
        	 width:1024px;
 	height:1200px;
-		background-color: orange;
     }
 }
 
@@ -226,7 +222,6 @@ border-radius:25%;
 	body{
 		 width: 750px;
 	height:750px;
-		background-color:purple;
 	}			
 }
 
@@ -242,7 +237,6 @@ border-radius:25%;
 	body {
 		width:750px;
 		height:1200px;
-		 background-color: grey;
     }
 }
 	
@@ -257,7 +251,6 @@ border-radius:25%;
       body{
 	      width : 1440px;
 	      height : 700px;
-	      background-color:blue;
 	}
 }
 
